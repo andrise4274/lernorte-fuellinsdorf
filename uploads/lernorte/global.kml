@@ -28,6 +28,35 @@
 				</description>								
                 <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
                 <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
-                <Point><coordinates>7.753683,47.488107</coordinates></Point>
+                <Point><coordinates>7.753719,47.488190</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Chloepfgatter	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://fuellinsdorf-umgebung.pages.dev">Chloepfgatter
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>25 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.738067,47.498134</coordinates></Point>
             </Placemark>
 </Document></kml>
