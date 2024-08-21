@@ -1,0 +1,86 @@
+{% extends "lernorte/layout.html" %}
+{% load static %}
+
+{% block body %}
+<main class="container-fluid py-5 text-center">
+    <div class="card-mb-3">
+        <div class="card-header">
+            <h3>Tabelle</h3>
+        </div>
+        <div class="table-responsive">
+            <div class="search-input">
+                <input type="text" id="searchInput" class="form-control" placeholder="Suche nach Name: ">
+            </div>
+
+
+            <!-- old table -->
+            <table class="table table-striped" id="dataTable">
+                <thead>
+                    <tr>
+                        <th scope="col" class="sortable">Ort</th>
+                        <th scope="col" class="sortable">Hinweg</th>
+                        <th scope="col" class="sortable">Wald</th>
+                        <th scope="col" class="sortable">Feuerstelle</th>
+                        <th scope="col" class="sortable">Feuerholz</th>
+                        <th scope="col" class="sortable">Trinkwasser</th>
+                        <th scope="col" class="sortable">Bademöglichkeit</th>
+                        <th scope="col" class="sortable">Unterstand</th>
+                        <th scope="col" class="sortable">Abfall</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for lernort in lernorte %}
+                        <tr>
+                            <td> <a href="{% url 'lernort' lernort.name %}">{{ lernort.name }}</a> </td>
+                            <td>{{ lernort.wegzeit }}</td>
+
+                            {% if lernort.wald %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.feuerstelle %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.feuerholz %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.trinkwasser %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.bademoeglichkeit %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.unterstand %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% if lernort.abfall %}
+                                <td><input type="checkbox" checked disabled></td>
+                            {% else %}
+                                <td><input type="checkbox" disabled></td>
+                            {% endif %}
+
+                            {% endfor %}
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+{% endblock %}

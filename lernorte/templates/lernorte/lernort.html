@@ -1,0 +1,102 @@
+{% extends "lernorte/layout.html" %}
+{% load static %}
+
+{% block body %}
+        <main class="container-fluid py-5 text-center">
+            <div class="card mb-3">
+                <div class="card-header">
+                  <h3>{{ lernort.name }}</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/task.png' %}" alt="Travel Time Icon" style="width: 16px; height: 16px;">
+                          <span>ca. {{ lernort.wegzeit }} min</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <img src="{% static 'lernorte/icons/environment.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+                            <span>{{ lernort.waldtext }}</span>
+                          </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/bonfire.png' %}" alt="Fireplace Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.feuerstelletext }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/campfire.png' %}" alt="Wood Available Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.feuerholztext }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/tap-water.png' %}" alt="Drinking Water Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.trinkwassertext }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/swimming.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.bademoeglichkeittext }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/roof.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.unterstandtext }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <img src="{% static 'lernorte/icons/recycle-bin.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+                          <span>{{ lernort.abfalltext }}</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-9">
+                      <p class="card-text">
+                        {{ lernort.text | safe }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="container">
+                    <h2>Bilder</h2>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="thumbnail">
+                          <a href="{{ lernort.bild1.url }}" target="_blank">
+                            <img src="{{ lernort.bild1.url }}" alt="Bild 1" style="width:100%">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="thumbnail">
+                          <a href="{{ lernort.bild2.url }}" target="_blank">
+                            <img src="{{ lernort.bild2.url }}" alt="Bild 2" style="width:100%">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="thumbnail">
+                          <a href="{{ lernort.bild3.url }}" target="_blank">
+                            <img src="{{ lernort.bild3.url }}" alt="Bild 3" style="width:100%">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <br>
+                <br>
+                <h3>Weg/Karte</h3>
+                <p class="path">
+                  {{ lernort.wegbeschreibung }}
+                </p>
+                <a href="{{ lernort.kml_file.url }}"> TEST link KML file</a>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe 
+                    src='https://map.geo.admin.ch/embed.html?lang=de&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen,KML%7C%7C{{ lernort.kml_file.url }}&layers_opacity=1,1,1,0.8,0.8,1&layers_visibility=false,false,false,false,false,true&layers_timestamp=18641231,,,,,&E=2623109.88&N=1260257.58&zoom=7'
+                    width='80%'
+                    height="600"
+                    frameborder='0' 
+                    style='border:0' 
+                    allow='geolocation'>
+                  </iframe>
+                </div>
+              </div>
+        </main>
+{% endblock %}

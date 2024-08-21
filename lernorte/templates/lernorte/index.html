@@ -1,0 +1,97 @@
+{% extends "lernorte/layout.html" %}
+{% load static %}
+
+{% block body %}
+<main class="container-fluid py-5 text-center">
+  <div class="card-mb-3">
+    <div class="card-header">
+      <h3>Lernorte Füllinsdorf</h3>
+    </div>
+    <div class="card-body">
+      <div class="row">
+      <div class="col-sm">
+        <h3>Symbole</h3>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>Zeit vom näheren Schulhaus aus</span>
+              <img src="{% static 'lernorte/icons/task.png' %}" alt="Travel Time Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es Wald?</span>
+              <img src="{% static 'lernorte/icons/environment.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+              </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es eine Feuerstelle?<br> </span>
+              <img src="{% static 'lernorte/icons/bonfire.png' %}" alt="Fireplace Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es vorbereitetes Feuerholz?</span>
+              <img src="{% static 'lernorte/icons/campfire.png' %}" alt="Wood Available Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es Trinkwasser?</span>
+              <img src="{% static 'lernorte/icons/tap-water.png' %}" alt="Drinking Water Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>kann man baden?</span>
+              <img src="{% static 'lernorte/icons/swimming.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es einen Unterstand?</span>
+              <img src="{% static 'lernorte/icons/roof.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>hat es einen Abfall?</span>
+              <img src="{% static 'lernorte/icons/recycle-bin.png' %}" alt="Swimming Icon" style="width: 16px; height: 16px;">
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm">
+          <h3>Info</h3>
+          <p class="card-text-boundary">
+            
+            Dieser Webseite wird (ist) eine Sammlung von vielen attraktiven Plätzen oder Lernorten in der Umgebung von Füllinsdorf.
+            Jeder Lernort ist auf der <a href="{% url 'karte' %}">Karte</a> eingetragen und mit Symbolen versehen, die durch anklicken angezeigt werden.
+            Alle Lernorte sind zudem als <a href="{% url 'tabelle' %}">Tabelle</a> zusammengetragen und verlinkt. 
+          </p>
+        </div>
+        <div class="col-sm">
+          <h3>Weg</h3>
+          <p class="card-text-boundary">
+            
+            Zu jedem Lernort gibt es eine Karte, auf welcher der Weg eingezeichnet ist. 
+            Die Wegzeit habe ich aufgrund der Laufzeiten der 2b (2023/2024) ins Clöpfgatter hochgerechnet. Die Laufzeiten sind ohne Pausen angegeben.
+            Der Weg und die Zeiten sind immer vom näheren Schulhaus angegeben.
+            <br>
+            <br>
+              Um den Standort auf der Karte zu benutzen, kann man oben links "In map.geo.admin.ch ansehen" die Karte extern öffnen und dann mit dem Punktesymbol oben rechts, den Standort einschalten. 
+          </p>
+        </div>
+      </div>
+      
+    </div>
+    <!-- tabelle mit Lernorten-->
+    <div class="table-responsive">
+      <div class="search-input">
+          <input type="text" id="searchInput" class="form-control" placeholder="Suche nach Name: ">
+      </div>
+      <table class="table table-striped" id="dataTable">
+          <thead>
+              <tr>
+                  <th scope="col" class="sortable">Ort</th>
+                  <th scope="col" class="sortable">Hinweg</th>
+              </tr>
+          </thead>
+          <tbody>
+            {% for lernort in lernorte %}
+            <tr>
+              <td> <a href="{% url 'lernort' lernort.name %}">{{ lernort.name }}</a> </td>
+              <td>{{ lernort.wegzeit }} min</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+      </table>
+      
+  </div>
+  </div>
+{% endblock %}
