@@ -1,0 +1,177 @@
+body {
+  background: white;
+}
+
+.navbar-custom{
+  background-color: #add8e6;
+  color: #ffcc00;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #333; /* Adjust to match text color on the webpage */
+}
+
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: #ffcc00; /* Lighter blue for hover and active states */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50; /* Dark blue from the webpage */
+  margin-top: 15px;
+}
+
+.list-group {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.card-text, p {
+  color: #333; /* Black for body text */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: justify;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.path {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card-text-boundary {
+  color: #333; /* Black for body text */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: justify;
+  border: 0.2px solid lightgrey;
+  border-radius: 3px;
+}
+
+
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background-color: #ffcc00;
+  border-radius: 0.25rem;
+  padding: 3px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* make the site more responsive - pictures get an animation
+plus make cards arround the text for the starting site*/
+
+.thumbnail img {
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.05);
+}
+
+.embed-responsive-16by9 iframe {
+  width: 90%;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .embed-responsive-16by9 iframe {
+      height: 400px;
+  }
+
+  .card-header {
+      font-size: 1.5rem;
+  }
+
+  .card-text, p {
+      font-size: 1rem;
+  }
+}
+
+/* style for search bar in table.html*/
+.search-input {
+  margin-bottom: 15px;
+}
+
+/* change the cursor when hovering over a table head*/
+
+th.sortable {
+    cursor: pointer;
+}
+th.sortable:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* make table on main page thinner*/
+
+.table-striped {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 3px;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: #add8e6;
+  color: #000000;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .contact-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer .contact-info a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.footer .contact-info a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-links a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
