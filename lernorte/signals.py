@@ -2,7 +2,7 @@ import os
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.conf import settings
-from .models import Lernort
+from .models import Lernort, Media
 
 
 import tempfile
@@ -63,7 +63,7 @@ def compile_global_kml(file):
         file.write(section)
     file.write('</Document></kml>')
 
-@receiver(post_save, sender=Lernort)
+@receiver(post_save, sender=Media)
 def update_static_file(sender, instance, **kwargs):
     print("trying to update and recompile global.kml...")
     file_path = os.path.join(settings.BASE_DIR, 'uploads', 'lernorte', 'global.kml')
