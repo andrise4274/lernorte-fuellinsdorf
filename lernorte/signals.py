@@ -10,7 +10,7 @@ import shutil
 
 
 def get_kml_section(lernort):
-    lernort_link = f"https://lernorte-fuellinsdorf.vercel.app/lernort/{lernort.name}"
+    lernort_link = f"lernorte-fuellinsdorf.vercel.app/lernort/{lernort.name}"
 
     icons = ""
     if lernort.wald:
