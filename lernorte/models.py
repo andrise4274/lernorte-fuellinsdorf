@@ -29,11 +29,13 @@ class Lernort(models.Model):
     abfalltext = models.CharField(max_length=250)
 
     text = models.TextField(max_length=2500)
+    wegbeschreibung = models.TextField(max_length=2500)
 
+
+class Media(models.Model):
+    lernort = models.OneToOneField(Lernort, on_delete=models.CASCADE)
     bild1 = models.ImageField(upload_to="lernorte/pictures")
     bild2 = models.ImageField(upload_to="lernorte/pictures")
     bild3 = models.ImageField(upload_to="lernorte/pictures")
-
-    wegbeschreibung = models.TextField(max_length=2500)
 
     kml_file = models.FileField(upload_to="lernorte/kml_files")
