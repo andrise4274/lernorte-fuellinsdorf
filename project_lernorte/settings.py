@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'project_lernorte.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 # Parse the POSTGRES_URL to extract the individual values
-url = urllib.parse.urlparse(os.environ.get('POSTGRES_URL'))
+url = urllib.parse.urlparse(os.environ.get('POSTGRES_NEOM_URL'))
 
 DATABASES = {
     'default': {
