@@ -58,22 +58,22 @@
                     <div class="row">
                       <div class="col-md-4">
                         <div class="thumbnail">
-                          <a href="{{ lernort.bild1.url }}" target="_blank">
-                            <img src="{{ lernort.bild1.url }}" alt="Bild 1" style="width:100%">
+                          <a href="{{ url1 }}" target="_blank">
+                            <img src="{{ url1 }}" alt="Bild 1" style="width:100%">
                           </a>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="thumbnail">
-                          <a href="{{ lernort.bild2.url }}" target="_blank">
-                            <img src="{{ lernort.bild2.url }}" alt="Bild 2" style="width:100%">
+                          <a href="{{ url2 }}" target="_blank">
+                            <img src="{{ url2 }}" alt="Bild 2" style="width:100%">
                           </a>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="thumbnail">
-                          <a href="{{ lernort.bild3.url }}" target="_blank">
-                            <img src="{{ lernort.bild3.url }}" alt="Bild 3" style="width:100%">
+                          <a href="{{ url3 }}" target="_blank">
+                            <img src="{{ url3 }}" alt="Bild 3" style="width:100%">
                           </a>
                         </div>
                       </div>
@@ -86,10 +86,10 @@
                 <p class="path">
                   {{ lernort.wegbeschreibung }}
                 </p>
-                <a href="{{ lernort.kml_file.url }}"> TEST link KML file</a>
+                <a href="{{ url_kml }}"> TEST link KML file</a>
                 <div class="embed-responsive embed-responsive-16by9">
                   <iframe 
-                    src='https://map.geo.admin.ch/embed.html?lang=de&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen,KML%7C%7Chttps://lernorte-fuellinsdorf.vercel.app/{{ lernort.kml_file.url }}&layers_opacity=1,1,1,0.8,0.8,1&layers_visibility=false,false,false,false,false,true&layers_timestamp=18641231,,,,,&E=2623109.88&N=1260257.58&zoom=7'
+                    src='https://map.geo.admin.ch/embed.html?lang=de&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.astra.wanderland-sperrungen_umleitungen,KML%7C%7Chttps://lernorte-fuellinsdorf.vercel.app/{{ url_kml }}&layers_opacity=1,1,1,0.8,0.8,1&layers_visibility=false,false,false,false,false,true&layers_timestamp=18641231,,,,,&E=2623109.88&N=1260257.58&zoom=7'
                     width='80%'
                     height="600"
                     frameborder='0' 

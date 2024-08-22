@@ -22,9 +22,26 @@ def lernort(request, lernort):
         return render(request, "lernorte/error.html", {
         "msg": f"kein Lernort {lernort} gefunden"
     })
+    try:
+        if lernort.media:  # Check if media exists
+            url1 = lernort.media.bild1.url
+            url2 = lernort.media.bild2.url
+            url3 = lernort.media.bild3.url
+            url_kml = lernort.media.kml_file.url
+    except:
+        url1 = ""
+        url2 = ""
+        url3 = ""
+        url_kml = ""
+    
+
     # render lernort.html with all data
     return render(request, "lernorte/lernort.html", {
-        "lernort": lernort
+        "lernort": lernort,
+        "url1": url1,
+        "url2": url2,
+        "url3": url3,
+        "url_kml": url_kml
     })
 
 

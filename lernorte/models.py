@@ -33,7 +33,7 @@ class Lernort(models.Model):
 
 
 class Media(models.Model):
-    lernort = models.OneToOneField(Lernort, on_delete=models.CASCADE)
+    lernort = models.OneToOneField(Lernort, on_delete=models.CASCADE, related_name="media")
     bild1 = models.ImageField(upload_to="lernorte/pictures")
     bild2 = models.ImageField(upload_to="lernorte/pictures")
     bild3 = models.ImageField(upload_to="lernorte/pictures")
