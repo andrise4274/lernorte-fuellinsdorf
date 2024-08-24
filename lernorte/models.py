@@ -31,6 +31,9 @@ class Lernort(models.Model):
     text = models.TextField(max_length=2500)
     wegbeschreibung = models.TextField(max_length=2500)
 
+    def __str__(self):
+        return self.name
+
 
 class Media(models.Model):
     lernort = models.OneToOneField(Lernort, on_delete=models.CASCADE, related_name="media")
@@ -39,3 +42,6 @@ class Media(models.Model):
     bild3 = models.ImageField(upload_to="lernorte/pictures")
 
     kml_file = models.FileField(upload_to="lernorte/kml_files")
+
+    def __str__(self):
+        return self.lernort.name
