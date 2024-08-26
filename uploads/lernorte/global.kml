@@ -15,7 +15,7 @@
                         </a>
                         
                     <br>
-                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>90 min</b>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>75 min</b>
                     <br>
                     <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
 <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
@@ -60,36 +60,6 @@
                 <Point><coordinates>7.738067,47.498134</coordinates></Point>
             </Placemark>
 <Placemark>
-                <name>	Ruine_Altenberg	</name>
-                <description><![CDATA[ 
-                    <a style="display: inline-block;				
-                    text-decoration: none;				
-                    color: black;				
-                    background-color: rgb(18, 164, 217) !important;				
-                    border-radius: 4px;				
-                    padding: 5px 10px;				
-                    margin: 10px;				
-                    font-weight: bold;				
-                    font-size: 18px;				
-                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Ruine_Altenberg">Ruine_Altenberg
-                        </a>
-                        
-                    <br>
-                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>60 min</b>
-                    <br>
-                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
-<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
-<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
-<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/swimming.png" width="100px"/><br>
-<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
-		
-                ]]>				
-				</description>								
-                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
-                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
-                <Point><coordinates>7.739860,47.509567</coordinates></Point>
-            </Placemark>
-<Placemark>
                 <name>	Samichlausplatz	</name>
                 <description><![CDATA[ 
                     <a style="display: inline-block;				
@@ -115,5 +85,313 @@
                 <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
                 <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
                 <Point><coordinates>7.740618,47.499014</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Ruine_Altenberg	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Ruine_Altenberg">Ruine_Altenberg
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>60 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.739860,47.509567</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Grillhuette	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Grillhuette">Grillhuette
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>50 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/roof.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.733944,47.512765</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Riviera	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Riviera">Riviera
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>25 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/swimming.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.720247,47.522657</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Fischerhuettli	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Fischerhuettli">Fischerhuettli
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>20 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.719740,47.520320</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Banntagsplatz	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Banntagsplatz">Banntagsplatz
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>45 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.731617,47.514733</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Huehli	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Huehli">Huehli
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>30 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.737772,47.504302</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Roemische_Wasserleitung	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Roemische_Wasserleitung">Roemische_Wasserleitung
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>40 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.724195,47.521034</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Amphitheater	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Amphitheater">Amphitheater
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>45 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/tap-water.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/roof.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.720407,47.529433</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Wasserleitung_Moosmatthof	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Wasserleitung_Moosmatthof">Wasserleitung_Moosmatthof
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>8 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/roof.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.728042,47.508748</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Lindenstock	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Lindenstock">Lindenstock
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>65 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.750025,47.494956</coordinates></Point>
+            </Placemark>
+<Placemark>
+                <name>	Felsenhaim	</name>
+                <description><![CDATA[ 
+                    <a style="display: inline-block;				
+                    text-decoration: none;				
+                    color: black;				
+                    background-color: rgb(18, 164, 217) !important;				
+                    border-radius: 4px;				
+                    padding: 5px 10px;				
+                    margin: 10px;				
+                    font-weight: bold;				
+                    font-size: 18px;				
+                    target="_blank" href="https://lernorte-fuellinsdorf.vercel.app/lernort/Felsenhaim">Felsenhaim
+                        </a>
+                        
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/task_11319878.png" width="100px"/><b>75 min</b>
+                    <br>
+                    <img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/environment.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/bonfire_2436266.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/campfire_6199010.png" width="100px"/><br>
+<img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/recycle-bin.png" width="100px"/><br>
+		
+                ]]>				
+				</description>								
+                <Style><IconStyle><scale>1.125</scale><Icon><href>https://map.geo.admin.ch/api/icons/sets/default/icons/001-marker@1x-255,0,0.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="6" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><scale>1.5</scale></LabelStyle></Style>
+                <ExtendedData><Data name="textOffset"><value>0,-44.75</value></Data><Data name="type"><value>marker</value></Data></ExtendedData>
+                <Point><coordinates>7.677185,47.498088</coordinates></Point>
             </Placemark>
 </Document></kml>

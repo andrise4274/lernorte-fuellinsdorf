@@ -1,0 +1,13 @@
+﻿<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd"><Document><name>Zeichnung</name><Placemark id="marker_1717170403278"><ExtendedData><Data name="htmlpopup"><value>&lt;div id="KML||https://public.geo.admin.ch/api/kml/files/D526LZMSTnKXS2rn8plvmQ#marker_1717170403278" class="htmlpopup-container"&gt;&lt;div class="htmlpopup-header"&gt;&lt;span&gt;Zeichnung &amp;nbsp;&lt;/span&gt;(Wasserleitung Moosmatthof)&lt;/div&gt;&lt;div class="htmlpopup-content"&gt;&lt;h2&gt; Wasserleitung Moosmatthof &lt;/h2&gt;
+
+
+&lt;img src="https://andrise4274.github.io/fuellinsdorf-umgebung//static/icons/task_11319878.png" style="max-height:100px;"/&gt; &lt;strong&gt;45min&lt;/strong&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/roof.png" style="max-height:100px;"/&gt;&lt;/div&gt;&lt;/div&gt;</value></Data><Data name="layerId"><value>KML||https://public.geo.admin.ch/api/kml/files/D526LZMSTnKXS2rn8plvmQ</value></Data><Data name="type"><value>marker</value></Data></ExtendedData><name>Wasserleitung Moosmatthof</name><description>&lt;h2&gt; Wasserleitung Moosmatthof &lt;/h2&gt;
+
+
+&lt;img src="https://andrise4274.github.io/fuellinsdorf-umgebung//static/icons/task_11319878.png" style="max-height:100px;"/&gt; &lt;strong&gt;10 min&lt;/strong&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src="https://andrise4274.github.io/fuellinsdorf-umgebung/static/icons/roof.png" style="max-height:100px;"/&gt;</description><Style><IconStyle><Icon><href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href><gx:w>48</gx:w><gx:h>48</gx:h></Icon><hotSpot x="24" y="4.799999999999997" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color></LabelStyle></Style><Point><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>7.728018395230509,47.508707224988</coordinates></Point></Placemark></Document></kml>
