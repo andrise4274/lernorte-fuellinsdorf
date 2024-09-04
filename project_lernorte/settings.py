@@ -84,6 +84,17 @@ url = urllib.parse.urlparse(os.environ.get('POSTGRES_URL'))
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+""" Postgres db connection
+# Parse the POSTGRES_URL to extract the individual values
+url = urllib.parse.urlparse(os.environ.get('POSTGRES_URL'))
+
+DATABASES = {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': url.path[1:],  # Remove the leading slash from the path
         'USER': url.username,
@@ -92,6 +103,9 @@ DATABASES = {
         'PORT': url.port,
     }
 }
+"""
+
+
 
 
 AUTH_USER_MODEL = "lernorte.User"
