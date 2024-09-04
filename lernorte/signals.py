@@ -64,7 +64,7 @@ def compile_global_kml(file):
     file.write('</Document></kml>')
 
 @receiver(post_save, sender=Media)
-def update_static_file(sender, instance, **kwargs):
+def update_kml_file(sender, instance, **kwargs):
     print("trying to update and recompile global.kml...")
     file_path = os.path.join(settings.BASE_DIR, 'uploads', 'lernorte', 'global.kml')
 
